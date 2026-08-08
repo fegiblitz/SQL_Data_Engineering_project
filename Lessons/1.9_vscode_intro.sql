@@ -21,7 +21,7 @@ from job_postings_fact as jpf
 left join company_dim as cd
 on jpf.company_id =cd.company_id
 where jpf.job_title_short like '%Data Engineer%' and 
-jpf.salary_year_avg >= 150000
+jpf.salary_year_avg >= 250000
 order by jpf.salary_year_avg desc
 limit 10;
 
