@@ -8,9 +8,9 @@ jpf.job_location
 from job_postings_fact as jpf
 left join company_dim as cd
 on jpf.company_id =cd.company_id
-where jpf.salary_year_avg >= 200_000
+where jpf.salary_year_avg >= 100_000
 order by jpf.salary_year_avg desc
-limit 100;
+limit 10;
 
 select cd.name,
 jpf.job_title_short,
