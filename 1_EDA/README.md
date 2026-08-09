@@ -13,7 +13,7 @@ This SQL exploratory data analysis examines the UK Data Engineering job market, 
 * **✅Outcomes:** Identified the most in-demand and valuable Data Engineering skills, providing practical insights into career opportunities.
 * **✅Insights:** Found strong demand for SQL, Python, and cloud technologies, while skills such as Terraform, AWS, and Airflow demonstrated strong earning potential.
 
-If you've got a minute, review these:
+If you've got a minute, review these:  
 [`01_top_demanded_skills.sql`](01_top_demanded_skills.sql) -Demand analysis with multi-table joins  
 [`02_highest_paying_skills.sql`](02_highest_paying_skills.sql)- Salary analysis with aggregations and joins  
 [`03_optimal_skills.sql`](03_optimal_skills.sql)- Combined demand?salary query
